@@ -30,4 +30,11 @@ return {
       return require "configs.null-ls"
     end,
   },
+  {
+    "shellRaining/hlchunk.nvim",
+    event = { "BufReadPre", "BufNewFile" },
+    config = function()
+      require "configs.chunk"
+    end,
+  },
   }
