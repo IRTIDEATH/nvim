@@ -6,13 +6,13 @@
 local M = {}
 
 M.base46 = {
-  theme = "ashes", -- default theme
+  theme = "aquarium", -- default theme
   hl_add = {},
   hl_override = {},
   integrations = {},
   changed_themes = {},
   transparency = false,
-  theme_toggle = { "ashes", "one_light" },
+  theme_toggle = { "aquarium", "one_light" },
 }
 
 M.ui = {
