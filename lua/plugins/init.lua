@@ -49,4 +49,11 @@ return {
       require("nvim-ts-autotag").setup()
     end
   },
+  {
+    "rachartier/tiny-inline-diagnostic.nvim",
+    event = "VeryLazy", -- Or `LspAttach`
+    config = function()
+      require "configs.inline-diagnostics"
+    end
+  }
   }

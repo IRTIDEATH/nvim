@@ -5,6 +5,12 @@
 ---@type ChadrcConfig
 local M = {}
 
+vim.lsp.handlers["textDocument/publishDiagnostics"] = vim.lsp.with(
+  vim.lsp.diagnostic.on_publish_diagnostics, {
+    virtual_text = false,
+  }
+)
+
 M.base46 = {
   theme = "aquarium", -- default theme
   hl_add = {},
