@@ -12,13 +12,13 @@ vim.lsp.handlers["textDocument/publishDiagnostics"] = vim.lsp.with(
 )
 
 M.base46 = {
-  theme = "aquarium", -- default theme
+  theme = "nord", -- default theme
   hl_add = {},
   hl_override = {},
   integrations = {},
   changed_themes = {},
   transparency = false,
-  theme_toggle = { "aquarium", "one_light" },
+  theme_toggle = { "nord", "one_light" },
 }
 
 M.ui = {
